@@ -2,7 +2,9 @@
 Matlab code for performing a weighted linear regression in matlab and getting out all the important stuff including confidence intervals on the parameters and covariance.
 
 The example ‘accidentstest.m’ is looking at traffic accident data in the US. If you use the function 
+
 `[yhat, residuals, betahat, betahatintervals, betastd, tstar, covmat,sigma2] = linearreg(y,X,pvalue,W)`
+
 Then you’ll get the parameter estimates in `betahat`, the pvalue*100% confidence intervals on the parameter values in `betahatintervals`.
  
 For example in the ‘accidentstest.m’ code,
